@@ -4,10 +4,23 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="主题介绍, 搬砖">
-    <meta name="description" content="## 
-ss
-">
+    <meta name="keywords" content="华大Java项目之——环境配置及测试, 搬砖">
+    <meta name="description" content="华大Java项目之——环境配置及测试
+硬件平台CPU：i7 8700
+内存：8G
+系统装在机械硬盘上
+
+
+
+
+软件系统Zorin OS 15
+操作系统类型：64位
+
+
+
+
+JDK的安装与配置1.下载JDK
+从Oracle官网下载JDK 8 ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -15,7 +28,7 @@ ss
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>主题介绍 | Littlegaga的博客</title>
+    <title>华大Java项目之——环境配置及测试 | Littlegaga的博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -287,13 +300,13 @@ ss
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        主题介绍
+                        华大Java项目之——环境配置及测试
                     </div>
                 </div>
             </div>
@@ -405,12 +418,16 @@ ss
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/博客/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/Linux/">
+                                <span class="chip bg-color">Linux</span>
                             </a>
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/Java/">
+                                <span class="chip bg-color">Java</span>
+                            </a>
+                        
+                            <a href="/tags/华大基因/">
+                                <span class="chip bg-color">华大基因</span>
                             </a>
                         
                     </div>
@@ -421,8 +438,8 @@ ss
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/工具/" class="post-category">
-                                工具
+                            <a href="/categories/技术方法/" class="post-category">
+                                技术方法
                             </a>
                         
                     </div>
@@ -433,7 +450,7 @@ ss
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-07
+                    2019-09-26
                 </div>
 
                 
@@ -449,8 +466,70 @@ ss
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>## </p>
-<p>ss</p>
+                <h1 id="华大Java项目之——环境配置及测试"><a href="#华大Java项目之——环境配置及测试" class="headerlink" title="华大Java项目之——环境配置及测试"></a>华大Java项目之——环境配置及测试</h1><ol>
+<li><h3 id="硬件平台"><a href="#硬件平台" class="headerlink" title="硬件平台"></a>硬件平台</h3><p>CPU：i7 8700</p>
+<p>内存：8G</p>
+<p>系统装在机械硬盘上</p>
+<hr>
+</li>
+</ol>
+<ol start="2">
+<li><h3 id="软件系统"><a href="#软件系统" class="headerlink" title="软件系统"></a>软件系统</h3><p>Zorin OS 15</p>
+<p>操作系统类型：64位</p>
+<hr>
+</li>
+</ol>
+<ol start="3">
+<li><h3 id="JDK的安装与配置"><a href="#JDK的安装与配置" class="headerlink" title="JDK的安装与配置"></a>JDK的安装与配置</h3><p>1.下载JDK</p>
+<p>从Oracle官网下载JDK 8 （过高版本的JDK会导致编译失败）</p>
+<p>本次下载的JDK的具体为 jdk-8u221-linux-x64.tar.gz</p>
+<p>2.创建目录</p>
+<p>在<code>/usr/</code>目录下创建<code>java</code>目录</p>
+<pre class="line-numbers language-shell"><code class="language-shell">sudo mkdir /usr/java
+cd /usr/java
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>3.解压并拷贝JDK</p>
+<pre class="line-numbers language-shell"><code class="language-shell"> sudo cp jdk-8u221-linux-x64.tar.gz /usr/java/
+sudo tar -zxvf jdk-8u221-linux-x64.tar.gz 
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h5 id="4-设置环境变量"><a href="#4-设置环境变量" class="headerlink" title="4.设置环境变量"></a>4.设置环境变量</h5><pre class="line-numbers language-shell"><code class="language-shell">修改 /etc/profile
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>在 profile 文件中添加如下内容并保存：</p>
+<pre class="line-numbers language-shell"><code class="language-shell">set java environment
+JAVA_HOME=/usr/java/jdk1.8.0_221
+JRE_HOME=/usr/java/jdk1.8.0_221/jre     
+CLASS_PATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin
+export JAVA_HOME JRE_HOME CLASS_PATH PATH
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>让修改生效：</p>
+<pre class="line-numbers language-shell"><code class="language-shell">source /etc/profile
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h5 id="5-测试JDK是否安装好"><a href="#5-测试JDK是否安装好" class="headerlink" title="5.测试JDK是否安装好"></a>5.测试JDK是否安装好</h5><pre class="line-numbers language-shell"><code class="language-shell">java -version
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><h3 id="ant的安装"><a href="#ant的安装" class="headerlink" title="ant的安装"></a>ant的安装</h3><pre class="line-numbers language-shell"><code class="language-shell">sudo apt install ant
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<hr>
+</li>
+<li><p>安装rar解压程序</p>
+</li>
+</ol>
+<pre class="line-numbers language-shell"><code class="language-shell">   sudo apt install unrar
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>   解压。</p>
+<ol start="6">
+<li><p>进入文件夹</p>
+<pre class="line-numbers language-shell"><code class="language-shell">ant
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>将build.xml生成的run*文件赋予可执行权限。</p>
+<pre class="line-numbers language-shell"><code class="language-shell">sudo chmod 775 run* 
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>查看result文件夹中*error文件内容，若为空，则代码运行正确</p>
+</li>
+</ol>
 
             </div>
             <hr/>
@@ -492,50 +571,56 @@ ss
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fas fa-chevron-left"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2018/09/07/first/">
+                <a href="/2019/09/26/Java环境配置/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="主题介绍">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="华大Java项目之——环境配置及测试">
                         
-                        <span class="card-title">主题介绍</span>
+                        <span class="card-title">华大Java项目之——环境配置及测试</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            主题使用过程中关键词的运用展示
+                            Linux下Java环境的配置
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Markdown/" class="post-category">
-                                    Markdown
+                            <a href="/categories/技术方法/" class="post-category">
+                                    技术方法
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Typora/">
-                        <span class="chip bg-color">Typora</span>
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
                     </a>
                     
-                    <a href="/tags/Markdown正文部分/">
-                        <span class="chip bg-color">Markdown正文部分</span>
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/华大基因/">
+                        <span class="chip bg-color">华大基因</span>
                     </a>
                     
                 </div>
@@ -549,48 +634,33 @@ ss
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/09/07/数电2（第一章）/">
+                <a href="/2019/03/24/photo/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="数电第二章">
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">数电第二章</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            逻辑门电路
+                            测试测试
+
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-03-24
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/数电/" class="post-category">
-                                    数电
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Littlegaga
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/数电/">
-                        <span class="chip bg-color">数电</span>
-                    </a>
-                    
-                    <a href="/tags/逻辑门电路/">
-                        <span class="chip bg-color">逻辑门电路</span>
-                    </a>
-                    
                 </div>
                 
             </div>
