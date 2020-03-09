@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Littlegaga的博客</title>
+  
+  <subtitle>welcome to gaga&#39;s blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="Littlegaga666.github.io/"/>
+  <updated>2020-03-06T04:03:59.643Z</updated>
+  <id>Littlegaga666.github.io/</id>
+  
+  <author>
+    <name>Littlegaga</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="Littlegaga666.github.io/2020/03/08/setssr/"/>
+    <id>Littlegaga666.github.io/2020/03/08/setssr/</id>
+    <published>2020-03-08T15:52:13.863Z</published>
+    <updated>2020-03-06T04:03:59.643Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;ubuntu科学上网（ultimite）&quot;&gt;&lt;a href=&quot;#ubuntu科学上网（ultimite）&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="Littlegaga666.github.io/2020/03/07/test/"/>
+    <id>Littlegaga666.github.io/2020/03/07/test/</id>
+    <published>2020-03-07T15:44:18.000Z</published>
+    <updated>2020-03-07T15:44:18.324Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
