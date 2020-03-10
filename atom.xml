@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Littlegaga的博客</title>
   
-  <subtitle>welcome to gaga&#39;s blog</subtitle>
+  <subtitle>welcome to Littlegaga&#39;s blog</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="Littlegaga666.github.io/"/>
-  <updated>2020-03-06T04:03:59.643Z</updated>
+  <updated>2020-03-10T06:53:48.484Z</updated>
   <id>Littlegaga666.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="Littlegaga666.github.io/2020/03/08/setssr/"/>
-    <id>Littlegaga666.github.io/2020/03/08/setssr/</id>
-    <published>2020-03-08T15:52:13.863Z</published>
-    <updated>2020-03-06T04:03:59.643Z</updated>
+    <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
+    <link href="Littlegaga666.github.io/2020/03/10/ubuntuset/"/>
+    <id>Littlegaga666.github.io/2020/03/10/ubuntuset/</id>
+    <published>2020-03-10T06:53:48.484Z</published>
+    <updated>2020-03-10T06:53:48.484Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;在安装完一个新的Ubuntu后，我是怎么设置的&quot;&gt;&lt;a href=&quot;#在安装完一个新的Ubuntu后，我是怎么设置的&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+    
+      <category term="安装教程" scheme="Littlegaga666.github.io/tags/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu科学上网（ultimite）</title>
+    <link href="Littlegaga666.github.io/2020/03/10/setssr/"/>
+    <id>Littlegaga666.github.io/2020/03/10/setssr/</id>
+    <published>2020-03-10T06:47:54.631Z</published>
+    <updated>2020-03-10T06:47:54.631Z</updated>
     
     <summary type="html">
     
@@ -35,20 +65,52 @@
     
     </summary>
     
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="教程" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95/%E6%95%99%E7%A8%8B/"/>
+    
+    
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+    
+      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
   </entry>
   
   <entry>
-    <title>Test</title>
-    <link href="Littlegaga666.github.io/2020/03/07/test/"/>
-    <id>Littlegaga666.github.io/2020/03/07/test/</id>
-    <published>2020-03-07T15:44:18.000Z</published>
-    <updated>2020-03-07T15:44:18.324Z</updated>
+    <title>B l o g 配置和踩坑</title>
+    <link href="Littlegaga666.github.io/2018/09/07/myblog/"/>
+    <id>Littlegaga666.github.io/2018/09/07/myblog/</id>
+    <published>2018-09-07T01:25:00.000Z</published>
+    <updated>2020-03-10T07:43:31.534Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;h1 id=&quot;B-l-o-g-配置和踩坑&quot;&gt;&lt;a href=&quot;#B-l-o-g-配置和踩坑&quot; class=&quot;headerlink&quot; title=&quot;B l o g 配置和踩坑&quot;&gt;&lt;/a&gt;B l o g
+        
+      
+    
     </summary>
     
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="Blog" scheme="Littlegaga666.github.io/tags/Blog/"/>
+    
+      <category term="blog 配置" scheme="Littlegaga666.github.io/tags/blog-%E9%85%8D%E7%BD%AE/"/>
+    
+      <category term="blog 写作" scheme="Littlegaga666.github.io/tags/blog-%E5%86%99%E4%BD%9C/"/>
+    
+      <category term="Markdown" scheme="Littlegaga666.github.io/tags/Markdown/"/>
     
   </entry>
   
