@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="Littlegaga666.github.io/"/>
-  <updated>2020-03-10T06:53:48.484Z</updated>
+  <updated>2020-03-13T02:29:55.214Z</updated>
   <id>Littlegaga666.github.io/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JAVA JIT</title>
+    <link href="Littlegaga666.github.io/2020/03/13/jit-in-java/"/>
+    <id>Littlegaga666.github.io/2020/03/13/jit-in-java/</id>
+    <published>2020-03-13T02:29:55.214Z</published>
+    <updated>2020-03-13T02:29:55.214Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JAVA-JIT-笔记&quot;&gt;&lt;a href=&quot;#JAVA-JIT-笔记&quot; class=&quot;headerlink&quot; title=&quot;JAVA JIT 笔记&quot;&gt;&lt;/a&gt;JAVA JIT 笔记&lt;/h1&gt;&lt;hr&gt;
+&lt;h3 id=&quot;JIT-in-JRE&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="JAVA" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/JAVA/"/>
+    
+      <category term="学习" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/JAVA/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="JAVA" scheme="Littlegaga666.github.io/tags/JAVA/"/>
+    
+      <category term="note" scheme="Littlegaga666.github.io/tags/note/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
-    <link href="Littlegaga666.github.io/2020/03/10/ubuntuset/"/>
-    <id>Littlegaga666.github.io/2020/03/10/ubuntuset/</id>
-    <published>2020-03-10T06:53:48.484Z</published>
-    <updated>2020-03-10T06:53:48.484Z</updated>
+    <link href="Littlegaga666.github.io/2020/03/11/ubuntuset/"/>
+    <id>Littlegaga666.github.io/2020/03/11/ubuntuset/</id>
+    <published>2020-03-11T07:39:45.034Z</published>
+    <updated>2020-03-11T07:39:45.034Z</updated>
     
     <summary type="html">
     
