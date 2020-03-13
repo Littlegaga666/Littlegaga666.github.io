@@ -105,11 +105,47 @@
       <category term="教程" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
       <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自建SSR服务器</title>
+    <link href="Littlegaga666.github.io/2020/01/23/vspserver/"/>
+    <id>Littlegaga666.github.io/2020/01/23/vspserver/</id>
+    <published>2020-01-22T16:00:00.000Z</published>
+    <updated>2020-03-13T07:29:32.972Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;科学上网（自建SSR服务器）&quot;&gt;&lt;a href=&quot;#科学上网（自建SSR服务器）&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
       <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
+    
+      <category term="VSP" scheme="Littlegaga666.github.io/tags/VSP/"/>
+    
+      <category term="Server" scheme="Littlegaga666.github.io/tags/Server/"/>
+    
+      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   

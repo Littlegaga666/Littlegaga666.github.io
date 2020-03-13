@@ -84,11 +84,46 @@
       
         <tags>
             
-            <tag> ubuntu </tag>
+            <tag> SSR </tag>
             
             <tag> 科学上网 </tag>
             
+            <tag> ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>自建SSR服务器</title>
+      <link href="/2020/01/23/vspserver/"/>
+      <url>/2020/01/23/vspserver/</url>
+      
+        <content type="html"><![CDATA[<h1 id="科学上网（自建SSR服务器）"><a href="#科学上网（自建SSR服务器）" class="headerlink" title="科学上网（自建SSR服务器）"></a>科学上网（自建SSR服务器）</h1><hr><blockquote><p>你还在为为翻墙难而困扰吗？你还在为 <code>git clone</code> 速度 20kb/s 而捶胸顿足吗？<strong>这个教程统统帮你解决！</strong></p></blockquote><ul><li><p>首先，自建ss/ssr很简单，分三步：</p></li><li><p>第一步：购买VPS服务器</p></li><li><p>第二步：一键部署VPS服务器</p></li><li><p>第三步：一键加速VPS服务器</p></li></ul><hr><h4 id="1-推荐-购买-vultr-服务器"><a href="#1-推荐-购买-vultr-服务器" class="headerlink" title="1.(推荐)购买 vultr 服务器"></a>1.(推荐)购买 <a href="https://my.vultr.com/" target="_blank" rel="noopener">vultr 服务器</a></h4><ul><li>VPS服务器需要选择国外的，首选国际知名的vultr，速度不错、稳定且性价比高，推荐5美元/月的服务器。</li><li>购买完成后，选择服务器位置，系统选择 centos 7 ，然后 deploy now</li><li>等待几分钟，服务器就配置完成。可以 ping IP 看是否被墙</li></ul><h4 id="2-配置VPS服务器端SSR"><a href="#2-配置VPS服务器端SSR" class="headerlink" title="2.配置VPS服务器端SSR"></a>2.配置VPS服务器端SSR</h4><ul><li>通过 <code>ssh root@yourip</code>命令登录，复制密码即可登录</li><li><code>yum -y install wget</code> 安装 wget</li><li><code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</code>一键部署管理脚本</li><li>根据提示选择 1 安装，然后设置端口，密码，加密方式，协议等。</li><li>最终完成部署即可</li></ul><h4 id="3-加速VSP服务器-谷歌BBR加速"><a href="#3-加速VSP服务器-谷歌BBR加速" class="headerlink" title="3.加速VSP服务器(谷歌BBR加速)"></a>3.加速VSP服务器(谷歌BBR加速)</h4><ul><li><code>wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh</code>部署脚本</li><li><code>chmod +x bbr.sh</code>赋予可执行权限</li><li><code>./bbr.sh</code>运行</li><li>等待完成重启服务器即可</li></ul><hr><blockquote><p>经过上述的三步，服务器配置就完成了；使用该服务器，则用SSR客户端，输入相应的地址密码等就好了。Ubuntu 本机端SSR的安装可以参考之前的博客。</p><p>感谢大佬们的<a href="https://blog.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener">教学</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+          <category> 技术 </category>
+          
+          <category> 分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
             <tag> SSR </tag>
+            
+            <tag> VSP </tag>
+            
+            <tag> Server </tag>
+            
+            <tag> 科学上网 </tag>
             
         </tags>
       
