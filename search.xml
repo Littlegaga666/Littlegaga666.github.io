@@ -4,37 +4,6 @@
   
     
     <entry>
-      <title>how to write</title>
-      <link href="/2020/03/13/howtowrite/"/>
-      <url>/2020/03/13/howtowrite/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-          <category> JAVA </category>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> JAVA </tag>
-            
-            <tag> note </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JAVA JIT</title>
       <link href="/2020/03/13/jit-in-java/"/>
       <url>/2020/03/13/jit-in-java/</url>

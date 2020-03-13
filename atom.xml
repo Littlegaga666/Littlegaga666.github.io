@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="Littlegaga666.github.io/"/>
-  <updated>2020-03-13T07:58:24.983Z</updated>
+  <updated>2020-03-13T07:52:58.854Z</updated>
   <id>Littlegaga666.github.io/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>how to write</title>
-    <link href="Littlegaga666.github.io/2020/03/13/howtowrite/"/>
-    <id>Littlegaga666.github.io/2020/03/13/howtowrite/</id>
-    <published>2020-03-13T07:58:25.015Z</published>
-    <updated>2020-03-13T07:58:24.983Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="技术" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-      <category term="JAVA" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/JAVA/"/>
-    
-      <category term="学习" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/JAVA/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="JAVA" scheme="Littlegaga666.github.io/tags/JAVA/"/>
-    
-      <category term="note" scheme="Littlegaga666.github.io/tags/note/"/>
-    
-  </entry>
   
   <entry>
     <title>JAVA JIT</title>
