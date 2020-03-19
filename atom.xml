@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="Littlegaga666.github.io/"/>
-  <updated>2020-03-13T07:52:58.854Z</updated>
+  <updated>2020-03-19T07:58:09.745Z</updated>
   <id>Littlegaga666.github.io/</id>
   
   <author>
@@ -15,6 +15,80 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>K-means的安全性证明</title>
+    <link href="Littlegaga666.github.io/2020/03/19/kmeans/"/>
+    <id>Littlegaga666.github.io/2020/03/19/kmeans/</id>
+    <published>2020-03-19T07:58:09.745Z</published>
+    <updated>2020-03-19T07:58:09.745Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;K-means的安全性证明过程&quot;&gt;&lt;a href=&quot;#K-means的安全性证明过程&quot; class=&quot;headerlink&quot; title=&quot;K-means的安全性证明过程&quot;&gt;&lt;/a&gt;K-means的安全性证明过程&lt;/h2&gt;&lt;h3 id=&quot;理想模型&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="算法" scheme="Littlegaga666.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="证明" scheme="Littlegaga666.github.io/categories/%E7%AE%97%E6%B3%95/%E8%AF%81%E6%98%8E/"/>
+    
+      <category term="隐私保护" scheme="Littlegaga666.github.io/categories/%E7%AE%97%E6%B3%95/%E8%AF%81%E6%98%8E/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4/"/>
+    
+      <category term="Privacy-preserving" scheme="Littlegaga666.github.io/categories/%E7%AE%97%E6%B3%95/%E8%AF%81%E6%98%8E/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4/Privacy-preserving/"/>
+    
+    
+      <category term="隐私保护" scheme="Littlegaga666.github.io/tags/%E9%9A%90%E7%A7%81%E4%BF%9D%E6%8A%A4/"/>
+    
+      <category term="Privacy Preserving" scheme="Littlegaga666.github.io/tags/Privacy-Preserving/"/>
+    
+      <category term="K-means" scheme="Littlegaga666.github.io/tags/K-means/"/>
+    
+      <category term="机器学习" scheme="Littlegaga666.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="machine learning" scheme="Littlegaga666.github.io/tags/machine-learning/"/>
+    
+      <category term="classify" scheme="Littlegaga666.github.io/tags/classify/"/>
+    
+      <category term="分类" scheme="Littlegaga666.github.io/tags/%E5%88%86%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
+    <link href="Littlegaga666.github.io/2020/03/18/ubuntuset/"/>
+    <id>Littlegaga666.github.io/2020/03/18/ubuntuset/</id>
+    <published>2020-03-18T07:46:21.536Z</published>
+    <updated>2020-03-18T07:46:21.536Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;在安装完一个新的Ubuntu后，我是怎么设置的&quot;&gt;&lt;a href=&quot;#在安装完一个新的Ubuntu后，我是怎么设置的&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+    
+      <category term="安装教程" scheme="Littlegaga666.github.io/tags/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>JAVA JIT</title>
@@ -50,36 +124,6 @@
   </entry>
   
   <entry>
-    <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
-    <link href="Littlegaga666.github.io/2020/03/11/ubuntuset/"/>
-    <id>Littlegaga666.github.io/2020/03/11/ubuntuset/</id>
-    <published>2020-03-11T07:39:45.034Z</published>
-    <updated>2020-03-11T07:39:45.034Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;在安装完一个新的Ubuntu后，我是怎么设置的&quot;&gt;&lt;a href=&quot;#在安装完一个新的Ubuntu后，我是怎么设置的&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
-    
-      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
-    
-      <category term="安装教程" scheme="Littlegaga666.github.io/tags/%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title>ubuntu科学上网（ultimite）</title>
     <link href="Littlegaga666.github.io/2020/03/10/setssr/"/>
     <id>Littlegaga666.github.io/2020/03/10/setssr/</id>
@@ -105,11 +149,11 @@
       <category term="教程" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
     
       <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
-      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
   </entry>
   
@@ -139,13 +183,13 @@
       <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
     
     
+      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
       <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
       <category term="VSP" scheme="Littlegaga666.github.io/tags/VSP/"/>
     
       <category term="Server" scheme="Littlegaga666.github.io/tags/Server/"/>
-    
-      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
