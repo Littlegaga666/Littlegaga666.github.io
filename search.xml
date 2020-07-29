@@ -4,11 +4,73 @@
   
     
     <entry>
-      <title>K-means的安全性证明</title>
-      <link href="/2020/03/19/kmeans/"/>
-      <url>/2020/03/19/kmeans/</url>
+      <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
+      <link href="/2020/07/29/ubuntuset/"/>
+      <url>/2020/07/29/ubuntuset/</url>
       
-        <content type="html"><![CDATA[<h2 id="K-means的安全性证明过程"><a href="#K-means的安全性证明过程" class="headerlink" title="K-means的安全性证明过程"></a>K-means的安全性证明过程</h2><h3 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h3><ul><li>在该模型中存在一个可信第三方,各参与方只需将数据提交给可信方,由它完成函数需要的所有计算,最终将计算结果相应地分发给各个参与方即可。理想模型中存在攻击者 S 试图通过控制的损坏方攻击理想协议以获取诚实方的数据。</li></ul><blockquote><p>参与者：C1,C2,…,Cm , S　其中 C1-Cm 为 m 个计算的参与方，S为可信第三方（完全可信的中心服务器）</p><p>上传数据：C1-Cm 将基因数据集 Ｘ1-Xm 上传到可信服务器Ｓ</p><p>计算：Ｓ计算Ｆ(X1,X2,…,Xm),其中Ｆ表示K-means聚类的方法。同时，Ｓ将计算结果发送给C1,C2,…,Cm</p></blockquote><hr><h3 id="理想协议的攻击者"><a href="#理想协议的攻击者" class="headerlink" title="理想协议的攻击者"></a>理想协议的攻击者</h3><ul><li>模拟器(又称为理想协议的攻击者)从理想协议中看到的信息,可以完全扮演真实协议,使得真实协议的攻击者以为就该模拟器就是真实协议。所以,假设攻击者的优势是不可忽略的,进而模拟器(理想协议的攻击者)能够以不可忽略的优势攻击理想协议。显然,理想协议是安全的,上述假设不成立,即,真实协议不存在攻击者。</li><li>我们定义一个模拟器S，它模拟理想世界中的攻击者。S将损坏的客户端的输入数据提交给该功能，并接收K-means聚类的最终输出值。</li></ul><hr><h3 id="现实模型"><a href="#现实模型" class="headerlink" title="现实模型"></a>现实模型</h3><ul><li>在该模型中不存在可信第三方,理想协议的敌手 S 利用已有知识模拟真实协议 π 的执行(所以又称为模拟器S)。具体地,在我们的模型中，可接受的对手可以破坏客户端的任何子集。鉴于该协议相对于客户端是对称的，我们只需要考虑以下情况：对手破坏了除一个客户端以外的所有C1,C2,…,Cm-1 ,最终使得该协议输出等于真实输出 sum,敌手 A 无法分辨模拟器和真实协议。</li></ul><hr><h3 id="真实协议的攻击者"><a href="#真实协议的攻击者" class="headerlink" title="真实协议的攻击者"></a>真实协议的攻击者</h3><ul><li>真实协议的攻击者不仅能入侵一方获得其输入和输出，还能够通过协议交互获得更多的额外信息</li></ul><hr><h3 id="真实协议的安全性"><a href="#真实协议的安全性" class="headerlink" title="真实协议的安全性"></a>真实协议的安全性</h3><ul><li><strong>真实协议π：</strong>采用代数电路和布尔电路执行函数</li><li><strong>参数：</strong>执行函数F,　安全参数λ</li><li><strong>安全性证明：</strong></li></ul><blockquote><p>因为该协议相对于客户端是对称的，所以我们是需要考虑一种最坏情况，即除了Cm,其他客户端都被对手破坏</p></blockquote><ul><li>理想协议攻击者入侵Ａ，真实协议的攻击者收到的信息为：</li></ul><ol><li>从OT(不经意传输协议)中收到的信息，因为该协议是安全的，所以没有获得任何信息优势。</li><li>最终计算结果和理想协议攻击者Ｓ完全一致，也没有获得额外的任何信息优势</li></ol><h6 id="攻击者-A-无法分辨真实协议执行与模拟器-S-模拟的协议执行。又因为模拟器-S-攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。"><a href="#攻击者-A-无法分辨真实协议执行与模拟器-S-模拟的协议执行。又因为模拟器-S-攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。" class="headerlink" title="攻击者 A 无法分辨真实协议执行与模拟器 S 模拟的协议执行。又因为模拟器 S 攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。"></a>攻击者 A 无法分辨真实协议执行与模拟器 S 模拟的协议执行。又因为模拟器 S 攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。</h6>]]></content>
+        <content type="html"><![CDATA[<h2 id="在安装完一个新的Ubuntu后，我是怎么设置的"><a href="#在安装完一个新的Ubuntu后，我是怎么设置的" class="headerlink" title="在安装完一个新的Ubuntu后，我是怎么设置的"></a>在安装完一个新的<em>Ubuntu</em>后，我是怎么设置的</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote><p>每次安装一个新的Ubuntu的我都要大费周章，尤其是输入法，theme，icon 巴拉巴拉之类的，叫老夫实在是有点烦，这次都记下来，为下次节约时间！！！！<br>奥利给！</p></blockquote><blockquote><blockquote><p>ps：　deepin　刻录工具　Is the best</p></blockquote></blockquote><h3 id="1-chrome-浏览器"><a href="#1-chrome-浏览器" class="headerlink" title="1.chrome 浏览器"></a>1.chrome 浏览器</h3><p>google chrome 直接从官网下载</p><h3 id="2-VIM-以防需要改写文件"><a href="#2-VIM-以防需要改写文件" class="headerlink" title="2.VIM(以防需要改写文件)"></a>2.VIM(以防需要改写文件)</h3><p><code>sudo apt install vim</code></p><h3 id="3-搜狗输入法（搜狗输入法的使用体验还是及其良好的）"><a href="#3-搜狗输入法（搜狗输入法的使用体验还是及其良好的）" class="headerlink" title="3.搜狗输入法（搜狗输入法的使用体验还是及其良好的）"></a>3.搜狗输入法（搜狗输入法的使用体验还是及其良好的）</h3><blockquote><p>卸载 ibus:<code>sudo apt-get remove ibus</code></p></blockquote><hr><blockquote><p>清除ibus配置:<code>sudo apt-get purge ibus</code></p><hr><p>安装fcitx输入法框架:<code>sudo apt install fcitx-table-wbpy fcitx-config-gtk</code></p></blockquote><hr><p>打开fcitx,配置fcitx输入法</p><hr><p>logout</p><hr><p>下载搜狗输入法：<a href="http://pinyin.sogou.com/linux/" target="_blank" rel="noopener">搜狗输入法官网</a></p><hr><p>下载.deb并安装</p><hr><p>打开Fcitx进行配置，将搜狗输入法加入</p><blockquote><blockquote><p>注意，切勿将搜狗输入法放在第一个，否则可能会出现乱码；比较好的设置是１号English()，２号搜狗，无缝切换，丝般顺滑。</p></blockquote></blockquote><h3 id="4-重头戏来了，主题设置！"><a href="#4-重头戏来了，主题设置！" class="headerlink" title="4.重头戏来了，主题设置！"></a>4.重头戏来了，主题设置！</h3><blockquote><p>应该没人能忍受ubuntu最初难看的橙色主题。所以有必要为自己的身心健康创造良好的环境。</p></blockquote><blockquote><p>ubuntu桌面主题的多样化都要归功于一个史诗级应用：ｔｗｅａｋｓ*</p></blockquote><ul><li>所以，第一步必然：<code>sudo apt install gnome-tweak-tool</code></li></ul><blockquote><p>安装完成之后，就可以到这个<a href="https://www.gnome-look.org/" target="_blank" rel="noopener">神奇的网站</a>下载你所需要的所有theme,icon,curse，wallpaper;等等文件，然后放在相应位置即可</p></blockquote><ol><li>主题存放目录：<code>/usr/share/themes</code> 或 <code>~/.themes</code></li><li>图标和鼠标存放目录：<code>/usr/share/icons</code> 或<code>~/.icons</code>（鼠标文件夹会多个文件）</li><li>字体存放目录：<code>/usr/share/fonts</code>或 <code>~/.fonts</code></li></ol><blockquote><p>管理员权限操作</p><p>然后就可以有一个美美的心情咯</p></blockquote><h3 id="5-Dash-To-Dock"><a href="#5-Dash-To-Dock" class="headerlink" title="5.Dash To Dock"></a>5.Dash To Dock</h3><blockquote><p>这个Dock插件提供了很多选项定制</p></blockquote><ul><li>到<a href="https://extensions.gnome.org/extension/307/dash-to-dock/" target="_blank" rel="noopener">gnome网站</a>弹出紫色链接，然后CLICK TO INSTALL.</li></ul><h3 id="6-备份工具"><a href="#6-备份工具" class="headerlink" title="6.备份工具"></a>6.备份工具</h3><ul><li>How to Backup Ubuntu Files and Folders</li></ul><blockquote><p>工具：<a href="https://snapcraft.io/deja-dup" target="_blank" rel="noopener">Déjà Dup Backup Tool</a></p></blockquote><p><code>sudo snap install deja-dup --classic</code>安装或者在APP STORE里搜索下载。</p><h3 id="7-右键新建文件"><a href="#7-右键新建文件" class="headerlink" title="7.右键新建文件"></a>7.右键新建文件</h3><ul><li>windows 熟悉的右键新建文件实在是太习惯了，而 ubuntu 下却没有，没有问题可以难道我！怎么实现呢？</li></ul><blockquote><p>新建一个你要右键新建类型文件，放入当前登陆用户的”Templates”目录中，随后你再鼠标右键，就会有你想要的新建文件类型了！<br>easy!</p></blockquote><h3 id="8-pip安装"><a href="#8-pip安装" class="headerlink" title="8.pip安装"></a>8.pip安装</h3><ul><li>Pip is a package management system that simplifies installation and management of software packages written in Python such as those found in the Python Package Index (PyPI).</li></ul><p><code>sudo apt install python3-pip</code></p><h3 id="9-How-To-Install-KDE-Connect"><a href="#9-How-To-Install-KDE-Connect" class="headerlink" title="9.How To Install KDE Connect"></a>9.How To Install KDE Connect</h3><ul><li><p>Thankfully there’s a PPA available to install KDE Connect from. To add it to your Software Sources in Ubuntu:</p></li><li><p><code>sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect</code></p></li><li><p>Now proceed to install KDE Connect (and the latest stable release of indicator-kdeconnect) by running this command:</p></li><li><p><code>sudo apt update &amp;&amp; sudo apt install kdeconnect indicator-kdeconnect</code></p></li></ul><h3 id="9-Ghost-Writer"><a href="#9-Ghost-Writer" class="headerlink" title="9.Ghost Writer"></a>9.Ghost Writer</h3><pre><code>sudo add-apt-repository ppa:wereturtle/ppasudo apt-get updatesudo apt-get install ghostwriter</code></pre><h3 id="8-VLC播放器（最好用的视频播放器，没有之一）"><a href="#8-VLC播放器（最好用的视频播放器，没有之一）" class="headerlink" title="8.VLC播放器（最好用的视频播放器，没有之一）"></a>8.VLC播放器（最好用的视频播放器，没有之一）</h3><ul><li><code>sudo snap install vlc</code></li></ul><h3 id="9-（号外）壁纸网站"><a href="#9-（号外）壁纸网站" class="headerlink" title="9.（号外）壁纸网站"></a>9.（号外）壁纸网站</h3><ul><li><a href="https://wallpapershome.com" target="_blank" rel="noopener">https://wallpapershome.com</a></li><li><a href="https://alpha.wallhaven.cc/" target="_blank" rel="noopener">https://alpha.wallhaven.cc/</a></li></ul><ul><li><a href="https://pixabay.com" target="_blank" rel="noopener">https://pixabay.com</a></li></ul><hr><p>参考作者网站：<a href="https://www.jianshu.com/p/7d153a484f72" target="_blank" rel="noopener">https://www.jianshu.com/p/7d153a484f72</a></p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 记录 </category>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ubuntu </tag>
+            
+            <tag> 安装教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ubuntu科学上网（ultimite）</title>
+      <link href="/2020/07/29/setssr/"/>
+      <url>/2020/07/29/setssr/</url>
+      
+        <content type="html"><![CDATA[<h3 id="ubuntu科学上网（ultimite）"><a href="#ubuntu科学上网（ultimite）" class="headerlink" title="ubuntu科学上网（ultimite）"></a>ubuntu科学上网（ultimite）</h3><hr><blockquote><p>思路：</p><blockquote><ol><li>在ubuntu安装SSR代理</li><li>ubuntu系统设置代理从本机端口映射到代理服务器</li></ol></blockquote></blockquote><h4 id="代理设置方法"><a href="#代理设置方法" class="headerlink" title="代理设置方法"></a>代理设置方法</h4><h4 id="1-写脚本安装SSR客户端-参考Charles-Xu的作品"><a href="#1-写脚本安装SSR客户端-参考Charles-Xu的作品" class="headerlink" title="1. 写脚本安装SSR客户端(参考Charles Xu的作品)"></a>1. 写脚本安装SSR客户端(参考Charles Xu的<a href="https://github.com/the0demiurge/CharlesScripts/blob/master/charles/bin/ssr" target="_blank" rel="noopener">作品</a>)</h4><ul><li><code>cd /usr/local/bin</code>进入目录</li><li><code>sodu vim ssr.sh</code>新建脚本文件</li><li>复制大佬许的脚本，保存退出</li><li><code>chmod 775 ssr.sh</code>修改为可执行权限</li><li>如果此时运行，会缺少依赖，所以安装</li></ul><blockquote><p><code>sudo apt install python</code><br><code>sudo apt install jq</code><br><code>sudo apt install curl</code><br><code>sudo apt install proxychains4</code></p></blockquote><ul><li>安装完成后，运行<code>./ssr.sh test</code>若没错，则配置SSR</li><li><code>./ssr.sh config</code>填写代理服务器相关Jason文件信息，保存退出</li><li><code>./ssr.sh strat</code>代理服务打开</li></ul><h4 id="2-配置ubuntu系统代理"><a href="#2-配置ubuntu系统代理" class="headerlink" title="2. 配置ubuntu系统代理"></a>2. 配置ubuntu系统代理</h4><ul><li>打开 setting &gt; network &gt; network proxy</li><li>设置为 Maunal ，将 sockets hosts 设置为127.0.0.1 ,端口1080</li></ul><h4 id="3-使用"><a href="#3-使用" class="headerlink" title="3. 使用"></a>3. 使用</h4><ul><li>因为 <code>/usr/local/bin</code> 本身就在系统变量中（<code>echo $PATH</code> 查看,在 ~/.bashrc 文件中修改，一般直接加在最后一行）所以直接在 terminal 中输入 <code>ssr.sh start</code> 即可。 </li></ul><hr><h1 id="成功"><a href="#成功" class="headerlink" title="成功"></a>成功</h1><hr><blockquote><p>衷心感谢共享账号的好哥哥们！<br><a href="https://github.com/bannedbook/fanqiang" target="_blank" rel="noopener">https://github.com/bannedbook/fanqiang</a></p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+          <category> 记录 </category>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SSR </tag>
+            
+            <tag> 科学上网 </tag>
+            
+            <tag> ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>K-means的安全性证明</title>
+      <link href="/2020/07/29/kmeans/"/>
+      <url>/2020/07/29/kmeans/</url>
+      
+        <content type="html"><![CDATA[<h2 id="K-means的安全性证明过程"><a href="#K-means的安全性证明过程" class="headerlink" title="K-means的安全性证明过程"></a>K-means的安全性证明过程</h2><h3 id="理想模型"><a href="#理想模型" class="headerlink" title="理想模型"></a>理想模型</h3><ul><li>在该模型中存在一个可信第三方,各参与方只需将数据提交给可信方,由它完成函数需要的所有计算,最终将计算结果相应地分发给各个参与方即可。理想模型中存在攻击者 S 试图通过控制的损坏方攻击理想协议以获取诚实方的数据。</li></ul><blockquote><p>参与者：C1,C2,…,Cm , S　其中 C1-Cm 为 m 个计算的参与方，S为可信第三方（完全可信的中心服务器）</p><p>上传数据：C1-Cm 将基因数据集 Ｘ1-Xm 上传到可信服务器Ｓ</p><p>计算：Ｓ计算Ｆ(X1,X2,…,Xm),其中Ｆ表示K-means聚类的方法。同时，Ｓ将计算结果发送给C1,C2,…,Cm</p></blockquote><hr><h3 id="理想协议的攻击者"><a href="#理想协议的攻击者" class="headerlink" title="理想协议的攻击者"></a>理想协议的攻击者</h3><ul><li>模拟器(又称为理想协议的攻击者)从理想协议中看到的信息,可以完全扮演真实协议,使得真实协议的攻击者以为就该模拟器就是真实协议。所以,假设攻击者的优势是不可忽略的,进而模拟器(理想协议的攻击者)能够以不可忽略的优势攻击理想协议。显然,理想协议是安全的,上述假设不成立,即,真实协议不存在攻击者。</li><li>我们定义一个模拟器S，它模拟理想世界中的攻击者。S将损坏的客户端的输入数据提交给该功能，并接收K-means聚类的最终输出值。</li></ul><hr><h3 id="现实模型"><a href="#现实模型" class="headerlink" title="现实模型"></a>现实模型</h3><ul><li>在该模型中不存在可信第三方,理想协议的敌手 S 利用已有知识模拟真实协议 π 的执行(所以又称为模拟器S)。具体地,在我们的模型中，可接受的对手可以破坏客户端的任何子集。鉴于该协议相对于客户端是对称的，我们只需要考虑以下情况：对手破坏了除一个客户端以外的所有C1,C2,…,Cm-1 ,最终使得该协议输出等于真实输出 sum,敌手 A 无法分辨模拟器和真实协议。</li></ul><hr><h3 id="真实协议的攻击者"><a href="#真实协议的攻击者" class="headerlink" title="真实协议的攻击者"></a>真实协议的攻击者</h3><ul><li>真实协议的攻击者不仅能入侵一方获得其输入和输出，还能够通过协议交互获得更多的额外信息</li></ul><hr><h3 id="真实协议的安全性"><a href="#真实协议的安全性" class="headerlink" title="真实协议的安全性"></a>真实协议的安全性</h3><ul><li><strong>真实协议π：</strong>采用代数电路和布尔电路执行函数</li><li><strong>参数：</strong>执行函数F,　安全参数λ</li><li><strong>安全性证明：</strong></li></ul><blockquote><p>因为该协议相对于客户端是对称的，所以我们是需要考虑一种最坏情况，即除了Cm,其他客户端都被对手破坏</p></blockquote><ul><li>理想协议攻击者入侵Ａ，真实协议的攻击者收到的信息为：</li></ul><ol><li>从OT(不经意传输协议)中收到的信息，因为该协议是安全的，所以没有获得任何信息优势。</li><li>最终计算结果和理想协议攻击者Ｓ完全一致，也没有获得额外的任何信息优势</li></ol><h5 id="攻击者-A-无法分辨真实协议执行与模拟器-S-模拟的协议执行。又因为模拟器-S-攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。"><a href="#攻击者-A-无法分辨真实协议执行与模拟器-S-模拟的协议执行。又因为模拟器-S-攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。" class="headerlink" title="攻击者 A 无法分辨真实协议执行与模拟器 S 模拟的协议执行。又因为模拟器 S 攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。"></a>攻击者 A 无法分辨真实协议执行与模拟器 S 模拟的协议执行。又因为模拟器 S 攻击理想协议的优势可忽略。因此所采用的协议是安全的，等价于理想协议。即：协议的参与方在输出与自己输入推测出的信息之外，不再获得其他额外有价值的信息。</h5>]]></content>
       
       
       <categories>
@@ -47,38 +109,9 @@
     
     
     <entry>
-      <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
-      <link href="/2020/03/18/ubuntuset/"/>
-      <url>/2020/03/18/ubuntuset/</url>
-      
-        <content type="html"><![CDATA[<h2 id="在安装完一个新的Ubuntu后，我是怎么设置的"><a href="#在安装完一个新的Ubuntu后，我是怎么设置的" class="headerlink" title="在安装完一个新的Ubuntu后，我是怎么设置的"></a>在安装完一个新的<em>Ubuntu</em>后，我是怎么设置的</h2><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote><p>每次安装一个新的Ubuntu的我都要大费周章，尤其是输入法，theme，icon 巴拉巴拉之类的，叫老夫实在是有点烦，这次都记下来，为下次节约时间！！！！<br>奥利给！</p></blockquote><blockquote><blockquote><p>ps：　deepin　刻录工具　Is the best</p></blockquote></blockquote><h3 id="1-chrome-浏览器"><a href="#1-chrome-浏览器" class="headerlink" title="1.chrome 浏览器"></a>1.chrome 浏览器</h3><p>google chrome 直接从官网下载</p><h3 id="2-VIM-以防需要改写文件"><a href="#2-VIM-以防需要改写文件" class="headerlink" title="2.VIM(以防需要改写文件)"></a>2.VIM(以防需要改写文件)</h3><p><code>sudo apt install vim</code></p><h3 id="3-搜狗输入法（搜狗输入法的使用体验还是及其良好的）"><a href="#3-搜狗输入法（搜狗输入法的使用体验还是及其良好的）" class="headerlink" title="3.搜狗输入法（搜狗输入法的使用体验还是及其良好的）"></a>3.搜狗输入法（搜狗输入法的使用体验还是及其良好的）</h3><blockquote><p>卸载 ibus:<code>sudo apt-get remove ibus</code></p></blockquote><hr><blockquote><p>清除ibus配置:<code>sudo apt-get purge ibus</code></p><hr><p>安装fcitx输入法框架:<code>sudo apt install fcitx-table-wbpy fcitx-config-gtk</code></p></blockquote><hr><p>打开fcitx,配置fcitx输入法</p><hr><p>logout</p><hr><p>下载搜狗输入法：<a href="http://pinyin.sogou.com/linux/" target="_blank" rel="noopener">搜狗输入法官网</a></p><hr><p>下载.deb并安装</p><hr><p>打开Fcitx进行配置，将搜狗输入法加入</p><blockquote><blockquote><p>注意，切勿将搜狗输入法放在第一个，否则可能会出现乱码；比较好的设置是１号English()，２号搜狗，无缝切换，丝般顺滑。</p></blockquote></blockquote><h3 id="4-重头戏来了，主题设置！"><a href="#4-重头戏来了，主题设置！" class="headerlink" title="4.重头戏来了，主题设置！"></a>4.重头戏来了，主题设置！</h3><blockquote><p>应该没人能忍受ubuntu最初难看的橙色主题。所以有必要为自己的身心健康创造良好的环境。</p></blockquote><blockquote><p>ubuntu桌面主题的多样化都要归功于一个史诗级应用：ｔｗｅａｋｓ*</p></blockquote><ul><li>所以，第一步必然：<code>sudo apt install gnome-tweak-tool</code></li></ul><blockquote><p>安装完成之后，就可以到这个<a href="https://www.gnome-look.org/" target="_blank" rel="noopener">神奇的网站</a>下载你所需要的所有theme,icon,curse，wallpaper;等等文件，然后放在相应位置即可</p></blockquote><ol><li>主题存放目录：<code>/usr/share/themes</code> 或 <code>~/.themes</code></li><li>图标和鼠标存放目录：<code>/usr/share/icons</code> 或<code>~/.icons</code>（鼠标文件夹会多个文件）</li><li>字体存放目录：<code>/usr/share/fonts</code>或 <code>~/.fonts</code></li></ol><blockquote><p>管理员权限操作</p><p>然后就可以有一个美美的心情咯</p></blockquote><h3 id="5-Dash-To-Dock"><a href="#5-Dash-To-Dock" class="headerlink" title="5.Dash To Dock"></a>5.Dash To Dock</h3><blockquote><p>这个Dock插件提供了很多选项定制</p></blockquote><ul><li>到<a href="https://extensions.gnome.org/extension/307/dash-to-dock/" target="_blank" rel="noopener">gnome网站</a>弹出紫色链接，然后CLICK TO INSTALL.</li></ul><h3 id="6-备份工具"><a href="#6-备份工具" class="headerlink" title="6.备份工具"></a>6.备份工具</h3><ul><li>How to Backup Ubuntu Files and Folders</li></ul><blockquote><p>工具：<a href="https://snapcraft.io/deja-dup" target="_blank" rel="noopener">Déjà Dup Backup Tool</a></p></blockquote><p><code>sudo snap install deja-dup --classic</code>安装或者在APP STORE里搜索下载。</p><h3 id="7-右键新建文件"><a href="#7-右键新建文件" class="headerlink" title="7.右键新建文件"></a>7.右键新建文件</h3><ul><li>windows 熟悉的右键新建文件实在是太习惯了，而 ubuntu 下却没有，没有问题可以难道我！怎么实现呢？</li></ul><blockquote><p>新建一个你要右键新建类型文件，放入当前登陆用户的”Templates”目录中，随后你再鼠标右键，就会有你想要的新建文件类型了！<br>easy!</p></blockquote><h3 id="8-pip安装"><a href="#8-pip安装" class="headerlink" title="8.pip安装"></a>8.pip安装</h3><ul><li>Pip is a package management system that simplifies installation and management of software packages written in Python such as those found in the Python Package Index (PyPI).</li></ul><p><code>sudo apt install python3-pip</code></p><h3 id="9-How-To-Install-KDE-Connect"><a href="#9-How-To-Install-KDE-Connect" class="headerlink" title="9.How To Install KDE Connect"></a>9.How To Install KDE Connect</h3><ul><li><p>Thankfully there’s a PPA available to install KDE Connect from. To add it to your Software Sources in Ubuntu:</p></li><li><p><code>sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect</code></p></li><li><p>Now proceed to install KDE Connect (and the latest stable release of indicator-kdeconnect) by running this command:</p></li><li><p><code>sudo apt update &amp;&amp; sudo apt install kdeconnect indicator-kdeconnect</code></p></li></ul><h3 id="9-Ghost-Writer"><a href="#9-Ghost-Writer" class="headerlink" title="9.Ghost Writer"></a>9.Ghost Writer</h3><pre><code>sudo add-apt-repository ppa:wereturtle/ppasudo apt-get updatesudo apt-get install ghostwriter</code></pre><h3 id="8-VLC播放器（最好用的视频播放器，没有之一）"><a href="#8-VLC播放器（最好用的视频播放器，没有之一）" class="headerlink" title="8.VLC播放器（最好用的视频播放器，没有之一）"></a>8.VLC播放器（最好用的视频播放器，没有之一）</h3><ul><li><code>sudo snap install vlc</code></li></ul><h3 id="9-（号外）壁纸网站"><a href="#9-（号外）壁纸网站" class="headerlink" title="9.（号外）壁纸网站"></a>9.（号外）壁纸网站</h3><ul><li><a href="https://wallpapershome.com" target="_blank" rel="noopener">https://wallpapershome.com</a></li><li><a href="https://alpha.wallhaven.cc/" target="_blank" rel="noopener">https://alpha.wallhaven.cc/</a></li></ul><ul><li><a href="https://pixabay.com" target="_blank" rel="noopener">https://pixabay.com</a></li></ul><hr><p>参考作者网站：<a href="https://www.jianshu.com/p/7d153a484f72" target="_blank" rel="noopener">https://www.jianshu.com/p/7d153a484f72</a></p><h1 id="未完待续"><a href="#未完待续" class="headerlink" title="未完待续"></a>未完待续</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 记录 </category>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-            <tag> 安装教程 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JAVA JIT</title>
-      <link href="/2020/03/13/jit-in-java/"/>
-      <url>/2020/03/13/jit-in-java/</url>
+      <link href="/2020/07/29/jit-in-java/"/>
+      <url>/2020/07/29/jit-in-java/</url>
       
         <content type="html"><![CDATA[<h1 id="JAVA-JIT-笔记"><a href="#JAVA-JIT-笔记" class="headerlink" title="JAVA JIT 笔记"></a>JAVA JIT 笔记</h1><hr><h3 id="JIT-in-JRE"><a href="#JIT-in-JRE" class="headerlink" title="JIT in JRE"></a>JIT in JRE</h3><ul><li><strong>what is JIT ?</strong></li></ul><p>The Just-In-Time (JIT) compiler is a component of the Java Runtime Environment that <strong>improves the performance</strong> of Java applications at run time. Nothing in the JVM affects performance more than the compiler, and choosing a compiler is one of the first decisions made when running a Java application—whether you are a Java developer or an end-user.</p><hr><p>（JIT）编译器是Java运行时环境的一个组件，可提高运行时Java应用程序的性能。 JVM中没有什么比编译器更能影响性能，而选择编译器是运行Java应用程序时做出的首要决定之一，无论您是Java开发人员还是最终用户。</p><hr><ul><li><strong>An Overview</strong></li></ul><p>The key of java power “Write once, run everywhere” is <code>bytecode</code>. The way bytecodes get converted to the appropriate native instructions for an application has a huge impact on the speed of an application. These bytecode can be interpreted, compiled to native code or directly executed on a processor whose Instruction Set Architecture is the bytecode specification.</p><hr><p>Java功能“写一次，到处运行”的关键是<code>bytecode</code>。 将字节码转换为适用于应用程序的适当本机指令的方式对应用程序的速度有很大的影响。 这些字节码可以被解释，编译为本地代码，或者直接在指令集体系结构为字节码规范的处理器上执行。</p><hr><p>Interpreting the bytecode which is the standard implementation of the Java Virtual Machine (JVM) makes execution of programs slow. To improve performance, JIT compilers interact with the JVM at run time and compile appropriate bytecode sequences into native machine code. When using a JIT compiler, the hardware can execute the native code, as opposed to having the JVM interpret the same sequence of bytecode repeatedly and incurring the penalty of a relatively lengthy translation process. This can lead to performance gains in the execution speed, unless methods are executed less frequently. The time that a JIT compiler takes to compile the bytecode is added to the overall execution time, and could lead to a higher execution time than an interpreter for executing the bytecode if the methods that are compiled by the JIT are not invoked frequently.</p><hr><p>解释字节码是Java虚拟机（JVM）的标准实现，这会使程序的执行速度变慢。 为了提高性能，JIT编译器在运行时与JVM交互，并将适当的字节码序列编译为本地机器代码。 当使用JIT编译器时，硬件可以执行本机代码，而不是让JVM重复解释相同的字节码序列，并导致翻译过程相对冗长。 除非方法的执行频率降低，否则这可能会导致执行速度提高。 JIT编译器编译字节码所花费的时间被添加到总体执行时间中，并且如果不频繁调用JIT编译的方法，则可能导致比用于执行字节码的解释器更长的执行时间。</p><hr><p>The JIT compiler performs certain optimizations when compiling the bytecode to native code. Since the JIT compiler translates a series of bytecode into native instructions, it can perform some simple optimizations. Some of the common optimizations performed by JIT compilers are data-analysis, translation from stack operations to register operations, reduction of memory accesses by register allocation, elimination of common sub-expressions etc. The higher the degree of optimization done by a JIT compiler, the more time it spends in the execution stage. Therefore a JIT compiler cannot afford to do all the optimizations that is done by a static compiler, both because of the overhead added to the execution time and because it has only a restricted view of the program.</p><hr><p>当将字节码编译为本地代码时，JIT编译器会执行某些优化。 由于JIT编译器将一系列字节码转换为本机指令，因此它可以执行一些简单的优化。 JIT编译器执行的一些常见优化操作包括数据分析，从堆栈操作到寄存器操作的转换，通过寄存器分配减少内存访问，消除公共子表达式等。JIT编译器进行的优化程度越高， 在执行阶段花费的时间越多。 因此，JIT编译器无法承担所有静态编译器所做的优化，这不仅是因为增加了执行时间的开销，而且还因为它只对程序进行了限制。</p><hr><ul><li><strong>How does it work ?!</strong></li></ul><p>The Just-In-Time (JIT) compiler is a component of the Java Runtime Environment that improves the performance of Java applications at run time. Java programs consists of classes, which contain platform neutral bytecode that can be interpreted by a JVM on many different computer architectures. At run time, the JVM loads the class files, determines the semantics of each individual bytecode, and performs the appropriate computation. The additional processor and memory usage during interpretation means that a Java application performs more slowly than a native application. The JIT compiler helps improve the performance of Java programs by compiling bytecode into native machine code at run time.</p><p><img src="https://imgkr.cn-bj.ufileos.com/37946e31-ec07-4fb9-94c2-d8e9dcdcfd59.png" alt="JIT"></p><hr><p>（JIT）编译器是Java运行时环境的一个组件，可提高运行时Java应用程序的性能。 Java程序由类组成，这些类包含平台中立的字节码，可以由JVM在许多不同的计算机体系结构上解释。 在运行时，JVM加载类文件，确定每个单个字节码的语义，并执行适当的计算。 解释过程中额外的处理器和内存使用情况意味着Java应用程序比本地应用程序执行得更慢。 JIT编译器通过在运行时将字节码编译为本机机器代码来帮助提高Java程序的性能。</p><hr>]]></content>
       
@@ -107,39 +140,6 @@
     
     
     <entry>
-      <title>ubuntu科学上网（ultimite）</title>
-      <link href="/2020/03/10/setssr/"/>
-      <url>/2020/03/10/setssr/</url>
-      
-        <content type="html"><![CDATA[<h3 id="ubuntu科学上网（ultimite）"><a href="#ubuntu科学上网（ultimite）" class="headerlink" title="ubuntu科学上网（ultimite）"></a>ubuntu科学上网（ultimite）</h3><hr><blockquote><p>思路：</p><blockquote><ol><li>在ubuntu安装SSR代理</li><li>ubuntu系统设置代理从本机端口映射到代理服务器</li></ol></blockquote></blockquote><h4 id="代理设置方法"><a href="#代理设置方法" class="headerlink" title="代理设置方法"></a>代理设置方法</h4><h4 id="1-写脚本安装SSR客户端-参考Charles-Xu的作品"><a href="#1-写脚本安装SSR客户端-参考Charles-Xu的作品" class="headerlink" title="1. 写脚本安装SSR客户端(参考Charles Xu的作品)"></a>1. 写脚本安装SSR客户端(参考Charles Xu的<a href="https://github.com/the0demiurge/CharlesScripts/blob/master/charles/bin/ssr" target="_blank" rel="noopener">作品</a>)</h4><ul><li><code>cd /usr/local/bin</code>进入目录</li><li><code>sodu vim ssr.sh</code>新建脚本文件</li><li>复制大佬许的脚本，保存退出</li><li><code>chmod 775 ssr.sh</code>修改为可执行权限</li><li>如果此时运行，会缺少依赖，所以安装</li></ul><blockquote><p><code>sudo apt install python</code><br><code>sudo apt install jq</code><br><code>sudo apt install curl</code><br><code>sudo apt install proxychains4</code></p></blockquote><ul><li>安装完成后，运行<code>./ssr.sh test</code>若没错，则配置SSR</li><li><code>./ssr.sh config</code>填写代理服务器相关Jason文件信息，保存退出</li><li><code>./ssr.sh strat</code>代理服务打开</li></ul><h4 id="2-配置ubuntu系统代理"><a href="#2-配置ubuntu系统代理" class="headerlink" title="2. 配置ubuntu系统代理"></a>2. 配置ubuntu系统代理</h4><ul><li>打开 setting &gt; network &gt; network proxy</li><li>设置为 Maunal ，将 sockets hosts 设置为127.0.0.1 ,端口1080</li></ul><h4 id="3-使用"><a href="#3-使用" class="headerlink" title="3. 使用"></a>3. 使用</h4><ul><li>因为 <code>/usr/local/bin</code> 本身就在系统变量中（<code>echo $PATH</code> 查看,在 ~/.bashrc 文件中修改，一般直接加在最后一行）所以直接在 terminal 中输入 <code>ssr.sh start</code> 即可。 </li></ul><hr><h1 id="成功"><a href="#成功" class="headerlink" title="成功"></a>成功</h1><hr><blockquote><p>衷心感谢共享账号的好哥哥们！<br><a href="https://github.com/bannedbook/fanqiang" target="_blank" rel="noopener">https://github.com/bannedbook/fanqiang</a></p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-          <category> 记录 </category>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> ubuntu </tag>
-            
-            <tag> 科学上网 </tag>
-            
-            <tag> SSR </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>自建SSR服务器</title>
       <link href="/2020/01/23/vspserver/"/>
       <url>/2020/01/23/vspserver/</url>
@@ -160,13 +160,13 @@
       
         <tags>
             
-            <tag> 科学上网 </tag>
-            
             <tag> SSR </tag>
             
             <tag> VSP </tag>
             
             <tag> Server </tag>
+            
+            <tag> 科学上网 </tag>
             
         </tags>
       
