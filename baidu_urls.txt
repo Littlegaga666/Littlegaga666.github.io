@@ -3,5 +3,6 @@ Littlegaga666.github.io/2020/07/29/setssr/
 Littlegaga666.github.io/2020/07/29/kmeans/
 Littlegaga666.github.io/2020/07/29/jit-in-java/
 Littlegaga666.github.io/2020/07/29/springmvc/
+Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/
 Littlegaga666.github.io/2020/01/23/vspserver/
 Littlegaga666.github.io/2018/09/07/myblog/

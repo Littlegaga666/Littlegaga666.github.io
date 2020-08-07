@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="Littlegaga666.github.io/"/>
-  <updated>2020-03-18T07:46:21.536Z</updated>
+  <updated>2020-08-05T02:03:30.594Z</updated>
   <id>Littlegaga666.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>在安装完一个新的Ubuntu后，我是怎么设置的</title>
+    <title>在安装完一个新的Ubuntu后，我是这样设置的</title>
     <link href="Littlegaga666.github.io/2020/07/29/ubuntuset/"/>
     <id>Littlegaga666.github.io/2020/07/29/ubuntuset/</id>
     <published>2020-07-29T07:12:47.507Z</published>
-    <updated>2020-03-18T07:46:21.536Z</updated>
+    <updated>2020-08-05T02:03:30.594Z</updated>
     
     <summary type="html">
     
@@ -72,11 +72,11 @@
       <category term="教程" scheme="Littlegaga666.github.io/categories/%E6%8A%80%E6%9C%AF/%E8%AE%B0%E5%BD%95/%E6%95%99%E7%A8%8B/"/>
     
     
-      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
+      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
       <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
-      <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
+      <category term="ubuntu" scheme="Littlegaga666.github.io/tags/ubuntu/"/>
     
   </entry>
   
@@ -129,7 +129,7 @@
     <link href="Littlegaga666.github.io/2020/07/29/jit-in-java/"/>
     <id>Littlegaga666.github.io/2020/07/29/jit-in-java/</id>
     <published>2020-07-29T07:12:47.465Z</published>
-    <updated>2020-03-13T07:52:58.854Z</updated>
+    <updated>2020-08-05T01:53:06.293Z</updated>
     
     <summary type="html">
     
@@ -162,7 +162,7 @@
     <link href="Littlegaga666.github.io/2020/07/29/springmvc/"/>
     <id>Littlegaga666.github.io/2020/07/29/springmvc/</id>
     <published>2020-07-29T01:25:00.000Z</published>
-    <updated>2020-07-29T07:56:53.000Z</updated>
+    <updated>2020-08-05T01:50:41.909Z</updated>
     
     <summary type="html">
     
@@ -188,11 +188,51 @@
   </entry>
   
   <entry>
+    <title>MybatisPlus</title>
+    <link href="Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/"/>
+    <id>Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/</id>
+    <published>2020-06-22T16:00:00.000Z</published>
+    <updated>2020-08-07T13:48:29.862Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h2 id=&quot;MybatisPlus&quot;&gt;&lt;a href=&quot;#MybatisPlus&quot; class=&quot;headerlink&quot; title=&quot;MybatisPlus&quot;&gt;&lt;/a&gt;MybatisPlus&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="MybatisPlus" scheme="Littlegaga666.github.io/tags/MybatisPlus/"/>
+    
+      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="代码生成器" scheme="Littlegaga666.github.io/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自建SSR服务器</title>
     <link href="Littlegaga666.github.io/2020/01/23/vspserver/"/>
     <id>Littlegaga666.github.io/2020/01/23/vspserver/</id>
     <published>2020-01-22T16:00:00.000Z</published>
-    <updated>2020-03-13T07:29:32.972Z</updated>
+    <updated>2020-08-05T02:03:53.026Z</updated>
     
     <summary type="html">
     
@@ -213,13 +253,13 @@
       <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
     
     
-      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
       <category term="SSR" scheme="Littlegaga666.github.io/tags/SSR/"/>
     
       <category term="VSP" scheme="Littlegaga666.github.io/tags/VSP/"/>
     
       <category term="Server" scheme="Littlegaga666.github.io/tags/Server/"/>
+    
+      <category term="科学上网" scheme="Littlegaga666.github.io/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
@@ -228,7 +268,7 @@
     <link href="Littlegaga666.github.io/2018/09/07/myblog/"/>
     <id>Littlegaga666.github.io/2018/09/07/myblog/</id>
     <published>2018-09-07T01:25:00.000Z</published>
-    <updated>2020-03-10T07:43:31.534Z</updated>
+    <updated>2020-08-05T01:50:00.057Z</updated>
     
     <summary type="html">
     
