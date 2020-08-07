@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>Littlegaga666.github.io/2020/05/23/springsecurity/</loc>
+    <loc>Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/</loc>
     <lastmod>2020-08-07</lastmod>
   </url>  <url>
-    <loc>Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/</loc>
+    <loc>Littlegaga666.github.io/2020/07/29/setssr/</loc>
+    <lastmod>2020-08-07</lastmod>
+  </url>  <url>
+    <loc>Littlegaga666.github.io/2020/05/23/springsecurity/</loc>
     <lastmod>2020-08-07</lastmod>
   </url>  <url>
     <loc>Littlegaga666.github.io/2020/01/23/vspserver/</loc>
@@ -24,8 +27,5 @@
   </url>  <url>
     <loc>Littlegaga666.github.io/2020/07/29/kmeans/</loc>
     <lastmod>2020-03-19</lastmod>
-  </url>  <url>
-    <loc>Littlegaga666.github.io/2020/07/29/setssr/</loc>
-    <lastmod>2020-03-10</lastmod>
   </url>
 </urlset>
