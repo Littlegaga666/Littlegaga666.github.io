@@ -188,6 +188,47 @@
   </entry>
   
   <entry>
+    <title>OAuth2</title>
+    <link href="Littlegaga666.github.io/2020/06/25/oauth2/"/>
+    <id>Littlegaga666.github.io/2020/06/25/oauth2/</id>
+    <published>2020-06-24T16:00:00.000Z</published>
+    <updated>2020-08-08T03:34:01.573Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;OAuth2&quot;&gt;&lt;a href=&quot;#OAuth2&quot; class=&quot;headerlink&quot; title=&quot;OAuth2&quot;&gt;&lt;/a&gt;OAuth2&lt;/h1&gt;&lt;h2 id=&quot;OAuth2-1&quot;&gt;&lt;a href=&quot;#OAuth2-1&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="OAuth2" scheme="Littlegaga666.github.io/tags/OAuth2/"/>
+    
+      <category term="授权" scheme="Littlegaga666.github.io/tags/%E6%8E%88%E6%9D%83/"/>
+    
+      <category term="解决方案" scheme="Littlegaga666.github.io/tags/%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MybatisPlus</title>
     <link href="Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/"/>
     <id>Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/</id>
@@ -215,15 +256,57 @@
       <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
     
     
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
       <category term="MybatisPlus" scheme="Littlegaga666.github.io/tags/MybatisPlus/"/>
     
       <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
     
-      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
-    
       <category term="代码生成器" scheme="Littlegaga666.github.io/tags/%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E5%99%A8/"/>
     
+  </entry>
+  
+  <entry>
+    <title>Redis</title>
+    <link href="Littlegaga666.github.io/2020/06/08/redis/"/>
+    <id>Littlegaga666.github.io/2020/06/08/redis/</id>
+    <published>2020-06-07T16:00:00.000Z</published>
+    <updated>2020-08-08T03:39:45.660Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;Redis&quot;&gt;&lt;a href=&quot;#Redis&quot; class=&quot;headerlink&quot; title=&quot;Redis&quot;&gt;&lt;/a&gt;Redis&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Redis is an open source (BSD
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
       <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Redis" scheme="Littlegaga666.github.io/tags/Redis/"/>
+    
+      <category term="数据库" scheme="Littlegaga666.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+      <category term="缓存" scheme="Littlegaga666.github.io/tags/%E7%BC%93%E5%AD%98/"/>
+    
+      <category term="开源" scheme="Littlegaga666.github.io/tags/%E5%BC%80%E6%BA%90/"/>
     
   </entry>
   
@@ -253,15 +336,252 @@
       <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
     
     
-      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
-    
       <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
     
       <category term="SpringSecurity" scheme="Littlegaga666.github.io/tags/SpringSecurity/"/>
     
       <category term="Spring全家桶" scheme="Littlegaga666.github.io/tags/Spring%E5%85%A8%E5%AE%B6%E6%A1%B6/"/>
     
       <category term="认证授权" scheme="Littlegaga666.github.io/tags/%E8%AE%A4%E8%AF%81%E6%8E%88%E6%9D%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gateway网关</title>
+    <link href="Littlegaga666.github.io/2020/05/23/gateway/"/>
+    <id>Littlegaga666.github.io/2020/05/23/gateway/</id>
+    <published>2020-05-22T16:00:00.000Z</published>
+    <updated>2020-08-08T03:29:39.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;## &lt;/p&gt;
+&lt;h2 id=&quot;SpringCloud组件–gateway网关&quot;&gt;&lt;a href=&quot;#SpringCloud组件–gateway网关&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="gateway网关" scheme="Littlegaga666.github.io/tags/gateway%E7%BD%91%E5%85%B3/"/>
+    
+      <category term="SpringCloud组件" scheme="Littlegaga666.github.io/tags/SpringCloud%E7%BB%84%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx</title>
+    <link href="Littlegaga666.github.io/2020/05/03/nginx/"/>
+    <id>Littlegaga666.github.io/2020/05/03/nginx/</id>
+    <published>2020-05-02T16:00:00.000Z</published>
+    <updated>2020-08-08T03:36:21.963Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h2 id=&quot;Nginx&quot;&gt;&lt;a href=&quot;#Nginx&quot; class=&quot;headerlink&quot; title=&quot;Nginx&quot;&gt;&lt;/a&gt;Nginx&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="Java框架" scheme="Littlegaga666.github.io/tags/Java%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="Nginx" scheme="Littlegaga666.github.io/tags/Nginx/"/>
+    
+      <category term="代理" scheme="Littlegaga666.github.io/tags/%E4%BB%A3%E7%90%86/"/>
+    
+      <category term="请求转发" scheme="Littlegaga666.github.io/tags/%E8%AF%B7%E6%B1%82%E8%BD%AC%E5%8F%91/"/>
+    
+      <category term="负载均衡" scheme="Littlegaga666.github.io/tags/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>EasyExcel</title>
+    <link href="Littlegaga666.github.io/2020/04/22/easyexcel/"/>
+    <id>Littlegaga666.github.io/2020/04/22/easyexcel/</id>
+    <published>2020-04-21T16:00:00.000Z</published>
+    <updated>2020-08-08T03:37:57.967Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h2 id=&quot;EasyExcel&quot;&gt;&lt;a href=&quot;#EasyExcel&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="EasyExcel" scheme="Littlegaga666.github.io/tags/EasyExcel/"/>
+    
+      <category term="框架" scheme="Littlegaga666.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信扫码登录</title>
+    <link href="Littlegaga666.github.io/2020/04/01/wechat/"/>
+    <id>Littlegaga666.github.io/2020/04/01/wechat/</id>
+    <published>2020-03-31T16:00:00.000Z</published>
+    <updated>2020-08-08T03:31:34.423Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;微信扫码登陆&quot;&gt;&lt;a href=&quot;#微信扫码登陆&quot; class=&quot;headerlink&quot; title=&quot;微信扫码登陆&quot;&gt;&lt;/a&gt;微信扫码登陆&lt;/h1&gt;&lt;h1 id=&quot;一、准备工作&quot;&gt;&lt;a href=&quot;#一、准备工作&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="微信扫码" scheme="Littlegaga666.github.io/tags/%E5%BE%AE%E4%BF%A1%E6%89%AB%E7%A0%81/"/>
+    
+      <category term="微信" scheme="Littlegaga666.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+      <category term="流程" scheme="Littlegaga666.github.io/tags/%E6%B5%81%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>swagger2</title>
+    <link href="Littlegaga666.github.io/2020/03/06/swagger/"/>
+    <id>Littlegaga666.github.io/2020/03/06/swagger/</id>
+    <published>2020-03-05T16:00:00.000Z</published>
+    <updated>2020-08-08T03:41:35.096Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h3 id=&quot;swagger2&quot;&gt;&lt;a href=&quot;#swagger2&quot; class=&quot;headerlink&quot; title=&quot;swagger2&quot;&gt;&lt;/a&gt;swagger2&lt;/h3&gt;&lt;hr&gt;
+&lt;h4 id=&quot;介绍&quot;&gt;&lt;a href=&quot;#介绍&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="swagger2" scheme="Littlegaga666.github.io/tags/swagger2/"/>
+    
+      <category term="接口调试" scheme="Littlegaga666.github.io/tags/%E6%8E%A5%E5%8F%A3%E8%B0%83%E8%AF%95/"/>
+    
+      <category term="在线文档" scheme="Littlegaga666.github.io/tags/%E5%9C%A8%E7%BA%BF%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微服务</title>
+    <link href="Littlegaga666.github.io/2020/02/22/m-service/"/>
+    <id>Littlegaga666.github.io/2020/02/22/m-service/</id>
+    <published>2020-02-21T16:00:00.000Z</published>
+    <updated>2020-08-08T03:43:04.295Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;h1 id=&quot;微服务&quot;&gt;&lt;a href=&quot;#微服务&quot; class=&quot;headerlink&quot; title=&quot;微服务&quot;&gt;&lt;/a&gt;微服务&lt;/h1&gt;&lt;blockquote&gt;
+&lt;h3 id=&quot;微服务-1&quot;&gt;&lt;a href=&quot;#微服务-1&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="记录" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+      <category term="技术" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="分享" scheme="Littlegaga666.github.io/categories/%E8%AE%B0%E5%BD%95/%E6%8A%80%E6%9C%AF/%E5%88%86%E4%BA%AB/"/>
+    
+    
+      <category term="Java" scheme="Littlegaga666.github.io/tags/Java/"/>
+    
+      <category term="项目" scheme="Littlegaga666.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+      <category term="微服务" scheme="Littlegaga666.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+      <category term="架构" scheme="Littlegaga666.github.io/tags/%E6%9E%B6%E6%9E%84/"/>
     
   </entry>
   

@@ -3,7 +3,15 @@ Littlegaga666.github.io/2020/07/29/setssr/
 Littlegaga666.github.io/2020/07/29/kmeans/
 Littlegaga666.github.io/2020/07/29/jit-in-java/
 Littlegaga666.github.io/2020/07/29/springmvc/
+Littlegaga666.github.io/2020/06/25/oauth2/
 Littlegaga666.github.io/2020/06/23/mybatisplus-codegenerator/
+Littlegaga666.github.io/2020/06/08/redis/
 Littlegaga666.github.io/2020/05/23/springsecurity/
+Littlegaga666.github.io/2020/05/23/gateway/
+Littlegaga666.github.io/2020/05/03/nginx/
+Littlegaga666.github.io/2020/04/22/easyexcel/
+Littlegaga666.github.io/2020/04/01/wechat/
+Littlegaga666.github.io/2020/03/06/swagger/
+Littlegaga666.github.io/2020/02/22/m-service/
 Littlegaga666.github.io/2020/01/23/vspserver/
 Littlegaga666.github.io/2018/09/07/myblog/
